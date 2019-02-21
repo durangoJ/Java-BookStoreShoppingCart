@@ -21,6 +21,7 @@ public class ShoppingCart {
  public void addCartItem(CartItem cartItem) {
   cartItems.add(cartItem);
  }
+<<<<<<< HEAD
  
  public void deleteCartItem(int index) {
 	 try{
@@ -31,6 +32,8 @@ public class ShoppingCart {
  }
  
 
+=======
+>>>>>>> parent of 945af77... Completed module
 
  public CartItem getCartItem(int iItemIndex) {
   CartItem cartItem = null;
